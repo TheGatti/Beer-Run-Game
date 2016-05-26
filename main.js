@@ -14,16 +14,16 @@ else if(answerOne==="3"){
     var beerChoice = prompt("Do you want 1). Bud-Lite, 2). Old English 3). Dank-ass local, craft beer?");
     switch(beerChoice.toLowerCase()) {
       case '1' || 'Bud-lite':
-        console.log("Do better, bro.")
+        alert("Do better, bro.")
         break;
       case '2' || "Old English":
-        console.log("You do you, man....");
+        alert("You do you, man....");
         break;
       case '3' || 'Dank-ass local, craft beer':
-        console.log("Excellent choice! Enjoy your deliciousness.");
+        alert("Excellent choice! Enjoy your deliciousness.");
         break;
       default:
-        console.log("Choose 1, 2, or 3 damnit....")
+        alert("Choose 1, 2, or 3 damnit....")
         break
     }
 }
